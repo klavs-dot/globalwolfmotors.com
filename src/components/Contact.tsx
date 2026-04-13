@@ -97,8 +97,24 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* WhatsApp Button */}
-                <div className="mt-auto">
+                {/* Book Meeting Button */}
+                <div className="mt-auto space-y-3">
+                  <a
+                    href="https://calendly.com/klavsasmanis/new-meeting"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 px-6 py-4 rounded-xl bg-gwm-accent/10 border border-gwm-accent/30 text-gwm-accent hover:bg-gwm-accent/20 hover:border-gwm-accent/50 transition-all duration-300 group"
+                  >
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-6 h-6 group-hover:scale-110 transition-transform duration-300">
+                      <path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <div className="text-left">
+                      <div className="text-xs font-medium uppercase tracking-wider text-gwm-accent/70">Calendly</div>
+                      <div className="text-sm font-semibold">Book online meeting</div>
+                    </div>
+                  </a>
+
+                  {/* WhatsApp Button */}
                   <a
                     href="https://api.whatsapp.com/send?phone=37120323388&text=Hello!%20I%20am%20interested%20for%20your%20amazing%20Mosphera!"
                     target="_blank"
