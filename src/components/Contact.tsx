@@ -98,7 +98,7 @@ export default function Contact() {
                 </div>
 
                 {/* Book Meeting Button */}
-                <div className="mt-auto space-y-3">
+                <div className="mt-auto flex flex-col space-y-3">
                   <a
                     href="https://calendly.com/klavsasmanis/new-meeting"
                     target="_blank"
