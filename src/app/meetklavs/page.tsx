@@ -73,7 +73,7 @@ export default function MeetKlavs() {
               <div
                 className="calendly-inline-widget"
                 data-url="https://calendly.com/klavsasmanis/new-meeting?hide_gdpr_banner=1&background_color=161a1f&text_color=e2e8f0&primary_color=3b82f6"
-                style={{ minWidth: "320px", height: "700px" }}
+                style={{ minWidth: "320px", height: "1000px" }}
               />
             </div>
           </div>
